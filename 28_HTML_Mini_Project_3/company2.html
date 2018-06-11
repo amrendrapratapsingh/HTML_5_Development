@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UiBrains Technologies</title>
+
+    <link rel="stylesheet" href="../font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: "Comic Sans MS" , sans-serif;
+            margin: 0;
+        }
+        header , footer{
+            background-image: url("../img/forest.jpg");
+            background-size: cover;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            line-height: 15px;
+        }
+
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li{
+            float: left;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 25px;
+            display: inline-block;
+        }
+        nav ul li a:hover{
+            background-color: forestgreen;
+        }
+        nav ul li a.active{
+            background-color: darkgreen;
+        }
+
+        /* sidebar section */
+        aside{
+            background-color: white;
+            float: left;
+            width: 200px;
+            text-align: center;
+            height: 361px;
+            overflow-y: scroll;
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 14px 25px;
+            display: block;
+        }
+        aside ul li a:hover{
+            background-image: url("../img/forest.jpg");
+            color: white;
+        }
+        /* Main Content Section */
+        section{
+            margin-left: 200px;
+            border-left: 2px solid forestgreen;
+            padding: 10px;
+        }
+        details{
+            background: white url("../img/forest.jpg") fixed no-repeat bottom;
+            background-size: cover;
+            padding: 10px;
+            margin: 5px;
+            color: white;
+            border-radius: 50px;
+
+        }
+        details div{
+            background-color: rgba(97,103,50,0.5);
+            padding: 10px;
+            color: white;
+            border-radius: 50px;
+        }
+        summary{
+            outline: none;
+        }
+
+    	}
+    </style>
+    
+</head>
+<body>
+
+<!-- main header -->
+<header>
+<h1>UiBrains Technologies</h1>
+<p>The Smart way of learning</p>
+</header>
+    
+<!-- MAIN NAVIGATION -->
+<nav>
+	<ul>
+		<li><a href="#" class="active">
+            <i class="fa fa-Home"></i>Home</a></li>
+   		<li><a href="#">About as</a></li>
+   		<li><a href="#"><i class="fas fa-address-card"></i>Contact as</a></li>
+   		<li><a href="#">Careers</a></li>
+   		<li><a href="#">Courses</a></li>
+   		
+	</ul>
+</nav>
+<!-- SIDEBAR -->
+ <aside>
+ 	<ul>
+ 		<li> <a href="#" class="active">HTML</a>
+ 		</li>
+ 		<li><a href="#">CSS</a></li>
+ 		<li><a href="#">JavaScript</a></li>
+ 		<li><a href="#">JQuery</a></li>
+ 		<li><a href="#">AJAX</a></li>
+ 		<li><a href="#">Bootstrap</a></li>
+ 		<li><a href="#">AngularJS</a></li>
+ 	</ul>
+ </aside>  
+ <!-- MAIN DATA -->
+ <section>
+ 	<details>
+ 		<summary>HTML</summary>
+ 		<article>
+ 			<h2>HTML</h2>
+ 			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat.</P>
+ 			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat. Duis aute irure dolor in reprehenderit .</P>
+ 		</article>
+ 	</details>
+ </section>
+ <section>
+ 	<details>
+ 		<summary>CSS</summary>
+ 		<article>
+ 			<h2>CSS</h2>
+ 		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat.</P>
+ 			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat. Duis aute irure dolor in reprehenderit .</P>
+ 		</article>
+ 	</details>
+ </section>
+  <section>
+ 	<details>
+ 		<summary>JavaScript</summary>
+ 		<article>
+ 			<h2>JavaScript</h2>
+ 		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat.</P>
+ 			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat. Duis aute irure dolor in reprehenderit .</P>
+ 		</article>
+ 	</details>
+ </section>
+  <section>
+ 	<details>
+ 		<summary>JQuery</summary>
+ 		<article>
+ 			<h2>JQuery</h2>
+ 		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat.</P>
+ 			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat. Duis aute irure dolor in reprehenderit .</P>
+ 		</article>
+ 	</details>
+ </section>
+  <section>
+ 	<details>
+ 		<summary>AJAX</summary>
+ 		<article>
+ 			<h2>AJAX</h2>
+ 		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat.</P>
+ 			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat. Duis aute irure dolor in reprehenderit .</P>
+ 		</article>
+ 	</details>
+ </section>
+  <section>
+ 	<details>
+ 		<summary>Bootstrap</summary>
+ 		<article>
+ 			<h2>Bootstrap</h2>
+ 		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat.</P>
+ 			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat. Duis aute irure dolor in reprehenderit .</P>
+ 		</article>
+ 	</details>
+ </section>
+  <section>
+ 	<details>
+ 		<summary>Angular JS</summary>
+ 		<article>
+ 			<h2>Angular JS</h2>
+ 		<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat.</P>
+ 			<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 			consequat. Duis aute irure dolor in reprehenderit .</P>
+ 		</article>
+ 	</details>
+ </section>
+ <!-- MAIN FOOTERS -->
+ <footer>
+ 	<h2>Copyrights &copy; 2018 ,UiBrains Technologies</h2>
+ 	<p>All Rights Reserved</p>
+ 	<small>Developed & Maintained by Amrendra pratap singh</small>
+ </footer>
+</body>
+</html>
